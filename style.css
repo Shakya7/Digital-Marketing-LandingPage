@@ -1,0 +1,122 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container{
+    width:100vw;
+    height:100vh;
+}
+.banner-container{
+    width:100vw;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:35px 50px;
+}
+
+.navbar-container div{
+    display: flex;
+    align-items: center;
+    gap:80px;
+
+}
+.nav-button{
+    padding: 10px;
+    background-color: rgb(95, 95, 189);
+    border-radius: 10px;
+    border: none;
+    color:#ffffff;
+    padding-left:20px;
+    padding-right: 20px;
+    transition: background-color 0.4s ease-in-out;
+}
+.nav-button:hover{
+    background-color: rgb(21, 14, 37);
+    cursor: pointer;
+}
+.navbar-container div img{
+    width:85px;
+
+}
+.list{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+.list .list-item{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color:grey;
+    font-weight: normal;
+    transition: font-weight 0.02s ease-in-out;
+}
+.list .list-item:hover{
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.image{
+    width:90%;
+    height:80%;
+}
+.right-aligned{
+    display: flex;
+    justify-content: flex-end;
+    width:60%;
+}
+.left-aligned{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: center;
+    width:40%;
+    position: relative;
+    padding-left:50px;
+    
+}
+span{
+    color:blue;
+}
+.heading-text{
+    font-size: 50px;
+    line-height: 1;
+    color: rgb(21, 14, 37);
+}
+.heading-text h1{
+    font-family: "Poppins";
+}
+.description p{
+    color: grey;
+    font-family: "Poppins";
+    font-size: 0.8rem
+}
+.holder-sec{
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.description p{
+    width:70%;
+
+}
+.btn{
+    width: 150px;
+    margin-top: 20px;
+    padding: 20px;
+    transition: background-color 0.4s ease-in-out;
+}
+.btn:hover{
+    background-color: rgb(21, 14, 37);
+    cursor: pointer;
+}
